@@ -1,8 +1,8 @@
 <?php
 
-    $filepath = "images/acero/";
+    $filepath = "images/productos/SUBLIMACION ACERO/";
     
-    $array = preg_grep('~\.(png)$~', scandir($filepath));
+    $array = preg_grep('~\.(jpg)$~', scandir($filepath));
 
     $num = count($array);
 
@@ -27,46 +27,52 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 		
 		<script type="text/javascript">
-$(document).ready(function() {
-    setTimeout(function() {
-        $(".content").fadeOut(1000);
-    },1000);
-	
-    setTimeout(function() {
-        $(".content2").fadeIn(1000);
-    },2000);
-});
-</script>
+            $(document).ready(function() {
+                setTimeout(function() {
+                    $(".content").fadeOut('fast');
+                },1000);
+
+                setTimeout(function() {
+                    $(".content2").fadeIn('fast');
+                },2000);
+            });
+        </script>
 	</head>
 	<body class="subpage">
 
 		<!-- Header -->
 			<header id="header">
 				
-			<img href="index.html" class="logo" src="images/LOGO CREATIVOS invert.png" width="120" height="40" alt=""/>
+			
 
 				<div class="inner">
 					
 					<img href="index.html" src="images/LOGO CREATIVOS 1 TINTA.png" class="logo" width="126" height="39" alt=""/> 
-					<a style='color:#000;' href="index.html">INDEX</a>
-					<a style='color:#000;' href="generic.html">SUBLIMACION</a>
-					<a style='color:#000;' href="elements.html">IMPRESION</a>
+					<a style='color:#000;' href="inicio.html">INICIO</a>
+					<a style='color:#000;' href="contacto.html">CONTACTO</a>
+					<a style='color:#000;' href="elements.html">PRODUCTOS</a>
 					<a href="#navPanel" class="navPanelToggle"><span class="fa fa-bars"></span></a>
 					
 					<nav id="nav" style="visibility: hidden">
 						<!-- Poner elementos de la lista aqui -->
+						<a class="dropdown-item" href="extras.php">Extras</a>
+						<a class="dropdown-item" href="offset.php">Offset</a>
+						<a class="dropdown-item" href="gran-formato.php">Gran Formato y Foto</a>
 						<a class="dropdown-item" href="acero.php">Acero</a>
+                        <a class="dropdown-item" href="aceroinox.php">Acero Inoxidable</a>
 						<a class="dropdown-item" href="aluminio.php">Aluminio</a>
 						<a class="dropdown-item" href="carton.php">Cartón</a>
 						<a class="dropdown-item" href="ceramica.php">Cerámica</a>
 						<a class="dropdown-item" href="gorras.php">Gorras</a>
+						<a class="dropdown-item" href="gorrasinf.php">Gorras Infantil</a>
 						<a class="dropdown-item" href="mdf.php">MDF</a>
 						<a class="dropdown-item" href="plastico.php">Plástico</a>
 						<a class="dropdown-item" href="textiles.php">Textiles</a>
-						<a class="dropdown-item" href="vidrio-peltre.php">Vidrio y Peltre</a>
+						<a class="dropdown-item" href="vidrio.php">Vidrio</a>
+						<a class="dropdown-item" href="vidrio.php">Peltre</a>
 				  </nav>
 				  
 			  </div>
@@ -162,23 +168,24 @@ $(document).ready(function() {
 		<!-- Footer -->
 			<footer id="footer">
 				<div class="inner">
-					
-					
-					
-					
-					
-					
-					<h3>Creativos</h3>
-
-					
 
 					<div class="copyright">
-						&copy; <a>Todos los derechos reservados</a>
+                        
+                       
+                        <a>
+                              SUCURSAL ZAVALETA   -Dirección: Camino Real a Cholula, #4405, Plaza Santa Fe Local 1G, Col. Ex Hacienda Concepción Buena Vista, C.P. 72170. <br> -Teléfonos de Oficina: 222.503.52.69 / 70  WhatsApp: 222 128 6395   -Correo: publicidadcreativoszavaleta@outlook.com
+                        </a>
+                        <br>
+                        <br>
+                        <a>
+                            SUCURSAL FORJADORES  -Dirección: Blvd. Forjadores de Puebla #1715, Santiago Momoxpan, C.P. 72700, Cholula, Puebla. <br> -Teléfono de Oficina: (222) 7.62.22.73  WhatsApp: 221 156 4111   -Correo: publicidadcreativos@hotmail.com
+                         
+                        </a>
+						
 					</div>
-
-			  </div>
-			</footer>
-
+                
+                </div>
+        </footer>
 		<!-- Scripts -->
 		<script>function onClick(element) {
   document.getElementById("img01").src = element.src;

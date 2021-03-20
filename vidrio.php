@@ -1,6 +1,6 @@
 <?php
 
-$filepath = "images/productos/SUBLIMACION TEXTILES/";
+$filepath = "images/productos/SUBLIMACION VIDRIO/";
     
     $array = preg_grep('~\.(png)$~', scandir($filepath));
 
@@ -20,7 +20,7 @@ $filepath = "images/productos/SUBLIMACION TEXTILES/";
 -->
 <html>
 	<head>
-		<title> Sublimacion - TEXTILES</title>
+		<title> Sublimacion - Vidrio</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -80,13 +80,13 @@ $(document).ready(function() {
 		
 			<div class="inner">
 					<header>
-						<div class="content"><h1>TEXTILES</h1></div>
+						<div class="content"><h1>GORRAS</h1></div>
 						
             			<div class="content2" style="display:none;">
 						
 						<!-- EN ESTA ZONA VA TODO EL DESMADRE -->
 							<div class="row2">
-								<h1 style=text-align: center>TEXTILES</h1>
+								<h1 style=text-align: center>GORRAS</h1>
 								
 								<table>
 						<?php foreach ($array as $x):?>

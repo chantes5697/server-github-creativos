@@ -1,6 +1,6 @@
 <?php
 
-    $filepath = "images/carton/";
+$filepath = "images/productos/SUBLIMACION CARTON/";
     
     $array = preg_grep('~\.(png)$~', scandir($filepath));
 
@@ -55,15 +55,21 @@ $(document).ready(function() {
 					
 					<nav id="nav" style="visibility: hidden">
 						<!-- Poner elementos de la lista aqui -->
+						<a class="dropdown-item" href="extras.php">Extras</a>
+						<a class="dropdown-item" href="offset.php">Offset</a>
+						<a class="dropdown-item" href="gran-formato.php">Gran Formato y Foto</a>
 						<a class="dropdown-item" href="acero.php">Acero</a>
+                        <a class="dropdown-item" href="aceroinox.php">Acero Inoxidable</a>
 						<a class="dropdown-item" href="aluminio.php">Aluminio</a>
 						<a class="dropdown-item" href="carton.php">Cartón</a>
 						<a class="dropdown-item" href="ceramica.php">Cerámica</a>
 						<a class="dropdown-item" href="gorras.php">Gorras</a>
+						<a class="dropdown-item" href="gorrasinf.php">Gorras Infantil</a>
 						<a class="dropdown-item" href="mdf.php">MDF</a>
 						<a class="dropdown-item" href="plastico.php">Plástico</a>
 						<a class="dropdown-item" href="textiles.php">Textiles</a>
-						<a class="dropdown-item" href="vidrio-peltre.php">Vidrio y Peltre</a>
+						<a class="dropdown-item" href="vidrio.php">Vidrio</a>
+						<a class="dropdown-item" href="vidrio.php">Peltre</a>
 				  </nav>
 				  
 			  </div>

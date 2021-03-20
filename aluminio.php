@@ -1,6 +1,6 @@
 <?php
 
-    $filepath = "images/ALUMINIO/";
+$filepath = "images/productos/SUBLIMACION ALUMINIO/";
     
     $array = preg_grep('~\.(png)$~', scandir($filepath));
 
@@ -55,15 +55,21 @@ $(document).ready(function() {
 					
 					<nav id="nav" style="visibility: hidden">
 						<!-- Poner elementos de la lista aqui -->
+						<a class="dropdown-item" href="extras.php">Extras</a>
+						<a class="dropdown-item" href="offset.php">Offset</a>
+						<a class="dropdown-item" href="gran-formato.php">Gran Formato y Foto</a>
 						<a class="dropdown-item" href="acero.php">Acero</a>
+                        <a class="dropdown-item" href="aceroinox.php">Acero Inoxidable</a>
 						<a class="dropdown-item" href="aluminio.php">Aluminio</a>
 						<a class="dropdown-item" href="carton.php">Cartón</a>
 						<a class="dropdown-item" href="ceramica.php">Cerámica</a>
 						<a class="dropdown-item" href="gorras.php">Gorras</a>
+						<a class="dropdown-item" href="gorrasinf.php">Gorras Infantil</a>
 						<a class="dropdown-item" href="mdf.php">MDF</a>
 						<a class="dropdown-item" href="plastico.php">Plástico</a>
 						<a class="dropdown-item" href="textiles.php">Textiles</a>
-						<a class="dropdown-item" href="vidrio-peltre.php">Vidrio y Peltre</a>
+						<a class="dropdown-item" href="vidrio.php">Vidrio</a>
+						<a class="dropdown-item" href="vidrio.php">Peltre</a>
 				  </nav>
 				  
 			  </div>
@@ -158,23 +164,24 @@ $(document).ready(function() {
 		<!-- Footer -->
 			<footer id="footer">
 				<div class="inner">
-					
-					
-					
-					
-					
-					
-					<h3>Creativos</h3>
-
-					
 
 					<div class="copyright">
-						&copy; <a>Todos los derechos reservados</a>
+                        
+                       
+                        <a>
+                              SUCURSAL ZAVALETA   -Dirección: Camino Real a Cholula, #4405, Plaza Santa Fe Local 1G, Col. Ex Hacienda Concepción Buena Vista, C.P. 72170. <br> -Teléfonos de Oficina: 222.503.52.69 / 70  WhatsApp: 222 128 6395   -Correo: publicidadcreativoszavaleta@outlook.com
+                        </a>
+                        <br>
+                        <br>
+                        <a>
+                            SUCURSAL FORJADORES  -Dirección: Blvd. Forjadores de Puebla #1715, Santiago Momoxpan, C.P. 72700, Cholula, Puebla. <br> -Teléfono de Oficina: (222) 7.62.22.73  WhatsApp: 221 156 4111   -Correo: publicidadcreativos@hotmail.com
+                         
+                        </a>
+						
 					</div>
-
-			  </div>
-			</footer>
-
+                
+                </div>
+        </footer>
 		<!-- Scripts -->
 		<script>function onClick(element) {
   document.getElementById("img01").src = element.src;

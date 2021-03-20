@@ -1,8 +1,8 @@
 <?php
 
-$filepath = "images/productos/SUBLIMACION TEXTILES/";
+    $filepath = "images/productos/SUBLIMACION ACERO INOX/";
     
-    $array = preg_grep('~\.(png)$~', scandir($filepath));
+    $array = preg_grep('~\.(jpg)$~', scandir($filepath));
 
     $num = count($array);
 
@@ -12,6 +12,8 @@ $filepath = "images/productos/SUBLIMACION TEXTILES/";
 
 ?>
 
+
+
 <!DOCTYPE HTML>
 <!--
 	Projection by TEMPLATED
@@ -20,37 +22,38 @@ $filepath = "images/productos/SUBLIMACION TEXTILES/";
 -->
 <html>
 	<head>
-		<title> Sublimacion - TEXTILES</title>
+		<title> Sublimacion - Acero</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 		
 		<script type="text/javascript">
-$(document).ready(function() {
-    setTimeout(function() {
-        $(".content").fadeOut(1000);
-    },1000);
-	
-    setTimeout(function() {
-        $(".content2").fadeIn(1000);
-    },2000);
-});
-</script>
+            $(document).ready(function() {
+                setTimeout(function() {
+                    $(".content").fadeOut(1000);
+                },1000);
+
+                setTimeout(function() {
+                    $(".content2").fadeIn(1000);
+                },2000);
+            });
+        </script>
 	</head>
 	<body class="subpage">
 
 		<!-- Header -->
 			<header id="header">
 				
-				
+			
+
 				<div class="inner">
 					
 					<img href="index.html" src="images/LOGO CREATIVOS 1 TINTA.png" class="logo" width="126" height="39" alt=""/> 
-					<a style='color:#000;' href="index.html">INDEX</a>
-					<a style='color:#000;' href="generic.html">SUBLIMACION</a>
-					<a style='color:#000;' href="elements.html">IMPRESION</a>
+					<a style='color:#000;' href="inicio.html">INICIO</a>
+					<a style='color:#000;' href="contacto.html">CONTACTO</a>
+					<a style='color:#000;' href="elements.html">PRODUCTOS</a>
 					<a href="#navPanel" class="navPanelToggle"><span class="fa fa-bars"></span></a>
 					
 					<nav id="nav" style="visibility: hidden">
@@ -73,6 +76,7 @@ $(document).ready(function() {
 				  </nav>
 				  
 			  </div>
+			  
 			</header>
 
 		<!-- Three -->
@@ -80,13 +84,13 @@ $(document).ready(function() {
 		
 			<div class="inner">
 					<header>
-						<div class="content"><h1>TEXTILES</h1></div>
+						<div class="content"><h1>ACERO</h1></div>
 						
             			<div class="content2" style="display:none;">
 						
 						<!-- EN ESTA ZONA VA TODO EL DESMADRE -->
 							<div class="row2">
-								<h1 style=text-align: center>TEXTILES</h1>
+								<h1 style=text-align: center>ACERO</h1>
 								
 								<table>
 						<?php foreach ($array as $x):?>
